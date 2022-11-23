@@ -9,11 +9,9 @@ Online dagboek voor Vini-Mini
   * [Licentie](#licentie)
 
 ## Beschrijving
-Ik heb gewerkt aan de <b>User</b> Story van het online dagboek: "Als ouder wil ik bij het openen van Mijn Vini Mini persoonlijk advies behorende bij de betreffende dag kunnen lezen, zodat de kans op een allergische reactie bij mijn kind kleiner wordt". Ik heb de pagina vormgegeven waar je op land, als je in je persoonlijke omgeving bent en waar je een mini aan kunt maken.
+Ik heb gewerkt aan de <b>User</b> Story van het online dagboek: "Als ouder wil ik bij het openen van Mijn Vini Mini persoonlijk advies behorende bij de betreffende dag kunnen lezen, zodat de kans op een allergische reactie bij mijn kind kleiner wordt". Ik heb de pagina vormgegeven waar je een vragenlijst kunt invullen, maar zo ook de klant een account aanmaakt en zijn/haar gegevens achterlaat.
 
-<img width="1431" alt="Schermafbeelding 2022-10-12 om 20 44 05" src="https://user-images.githubusercontent.com/112861144/195423169-bfb9c310-7f84-4581-999b-c318a0014c0c.png">
-
-<img width="1431" alt="Schermafbeelding 2022-10-12 om 20 44 13" src="https://user-images.githubusercontent.com/112861144/195423172-d7f3d9ea-756a-4864-add5-5bcc92c9490b.png">
+<img width="1389" alt="Schermafbeelding 2022-11-23 om 17 27 46" src="https://user-images.githubusercontent.com/112861144/203599430-fd590c8f-06f9-46b6-b168-6b7165cf4ac7.png">
 
 Bekijk hier mijn pagina -> :sparkles: http://vini-mini.student.fdnd.nl/ :sparkles:
 
@@ -36,6 +34,7 @@ en een link naar je icons.
 <br>https://www.w3schools.com/
 <br>https://fontawesome.com/
 <br>https://www.google.com/
+<br>https://webaim.org/resources/contrastchecker/
 
 ## Licentie
 
