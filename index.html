@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dagboek</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/d2e9d3d377.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+ 
+    <header><div class="logo"><img src="./assets/Logo.webp" alt="logo vini mini"></div></header>
+
+
+<nav>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-calendar-days"></i></i> Agenda</a></li>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-file"></i> Producten</a></li>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-square-check"></i> Test</a></li>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-user"></i> Account aanpassen</a></li>
+        <li><a class="flex-item" href="#"><i class="fa-solid fa-right-from-bracket"></i> Uitloggen</a></li>
+</nav>
+
+<main>
+
+      <h1>Dagboek</h1>
+      <p>In je dagboek kan de benodigde informatie ingevuld worden zodat er een persoonlijk advies voor jouw Mini geformuleerd kan worden.</p>
+     
+    <form data-multi-step="" class="multi-step-form">
+
+            <div class="card active" data-step="">
+                <div class="text-container">
+                    <h2 class="step-title">Hoe heet jouw mini?</h2>
+                    <br>
+                    <div class="form-group">
+                        <input type="text" placeholder="Naam">
+                    </div>
+
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-next="">Volgende</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card hide" data-step="">
+                <div class="text-container">
+                    <h2 class="step-title">Wat is de geboortedatum van jouw Mini?</h2>
+                    <br>
+                    <div class="form-group">
+                        <input type="text" placeholder="DD/MM/JJJJ">
+                    </div>
+
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-previous="">Vorige</button>
+                        <button type="button" class="btn" data-next="">Volgende</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card hide" data-step="">
+                <div class="text-container">
+                    <h2 class="step-title">Is het je eerste Mini?</h2>
+                    <br>
+                    <label class="check">
+                        <input type="radio" name="check" checked="" value="Ja">&nbsp;&nbsp;Ja
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Nee">&nbsp;&nbsp;Nee
+                    </label>
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-previous="">Vorige</button>
+                        <button type="button" class="btn" data-next="">Volgende</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card hide" data-step="">
+                <div class="text-container">
+                    <h2 class="step-title">Hoe oud is jouw Mini?</h2>
+                    <br>
+                    <label class="check">
+                        <input type="radio" name="check" checked="" value="Ja">&nbsp;&nbsp; &lt; 4 maanden </label>
+
+                            <label class="check">
+                                <input type="radio" name="check" value="Nee">&nbsp;&nbsp; 4 - 6 maanden
+                            </label>
+
+                            <label class="check">
+                                <input type="radio" name="check" value="Ja">&nbsp;&nbsp; 6 - 8 maanden
+                            </label>
+
+                            <label class="check">
+                                <input type="radio" name="check" value="Nee">&nbsp;&nbsp; 8 &gt; maanden
+                            </label>
+                            <div class="btn-box">
+                                <button type="button" class="btn" data-previous="">Vorige</button>
+                                <button type="button" class="btn" data-next="">Volgende</button>
+                            </div>
+                </div>
+            </div>
+
+            <div class="card hide" data-step="">
+                <div class="text-container">
+                    <h1 class="step-title">Heeft jouw Mini eerder een acute allergische reactie gehad na het eten?</h1>
+                    <br>
+                    <label class="check">
+                        <input type="radio" name="check" checked="" value="Ja">&nbsp;&nbsp;Ja
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Nee">&nbsp;&nbsp;Nee
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Ja">&nbsp;&nbsp; Weet ik niet
+                    </label>
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-previous="">Vorige</button>
+                        <button type="button" class="btn" data-next="">Volgende</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card hide" data-step="">
+                <div class="text-container">
+                    <h1 class="step-title">Heeft jouw Mini eczeem?</h1>
+                    <br>
+                    <label class="check">
+                        <input type="radio" name="check" checked="" value="Ja">&nbsp;&nbsp;Ja
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Nee">&nbsp;&nbsp;Nee
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Ja">&nbsp;&nbsp;Weet ik niet
+                    </label>
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-previous="">Vorige</button>
+                        <button type="button" class="btn" data-next="">Volgende</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card hide" data-step="">
+                <div class="text-container">
+                    <h1 class="step-title">Zijn er voedselallergieën in de rest van het gezin?</h1>
+                    <br>
+                    <label class="check">
+                        <input type="radio" name="check" checked="" value="Ja">&nbsp;&nbsp;Ja
+                    </label>
+
+                    <label class="check">
+                        <input type="radio" name="check" value="Nee">&nbsp;&nbsp;Nee
+                    </label>
+
+                    <div class="btn-box">
+                        <button type="button" class="btn" data-previous="">Vorige</button>
+                        <a href="calender.html">
+                        <button type="button" class="btn">Gereed</button>
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+  </div>
+
+      </div>
+      
+    
+  </main>
+
+  </body>
+</html>
